@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Cree un nuevo pokimon</title>
+
+<link href="css/pokemon.css" rel="stylesheet">
+
+</head>
+<body>
+
+	<div class="container">
+		<form action="#" method="post">
+			<div class="container-form">
+				<div class="flex-form flex-vertical-item">
+					<label>Número</label> <input type="text" value="" name="number" id="number" readonly>
+				</div>
+				<div class="flex-form flex-vertical-item">
+					<label>Nombre</label> <input type="text" value="" name="name" id="name">
+				</div>
+				<div class="vertical-flex flex-vertical-item">
+					<label>Descripción</label> 
+					<textarea type="text" rows="4" cols="50" name="description" id="description"></textarea>
+				</div>
+				<div class="flex-form flex-vertical-item">
+					<label>Tipo</label> <input type="text" value="" name="type" id="type">
+				</div>
+				<div class="flex-form flex-vertical-item" id="button-container">
+					
+				</div>
+			</div>
+	
+		</form>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script type="text/javascript" src="js/update-pokemon.js"></script>
+
+</body>
+</html>

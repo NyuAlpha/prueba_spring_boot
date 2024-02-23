@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Cree un nuevo pokimon</title>
+
+<link href="css/pokemon.css" rel="stylesheet">
+
+</head>
+<body>
+
+	<div class="container">
+		<form action="#" method="post">
+			<div class="container-form">
+				<div class="flex-form flex-vertical-item">
+					<label>Nombre</label> <input type="text" value="" name="name" id="name">
+				</div>
+				<div class="vertical-flex flex-vertical-item">
+					<label>Descripción</label> 
+					<textarea type="text" rows="4" cols="50" name="description" id="description"></textarea>
+				</div>
+				<div class="flex-form flex-vertical-item">
+					<label>Tipo</label> <input type="text" value="" name="type" id="type">
+				</div>
+				<div class="flex-form flex-vertical-item">
+					<button type="button" onclick="createPokemon()">Crear pokemon</button>
+				</div>
+			</div>
+	
+		</form>
+	</div>
+
+	<script type="text/javascript" src="js/create-pokemon.js"></script>
+
+</body>
+</html>

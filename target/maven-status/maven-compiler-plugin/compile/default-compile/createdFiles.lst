@@ -1,0 +1,10 @@
+com\aprendiendoSB\aprendiendo\controllers\PokemonController.class
+com\aprendiendoSB\aprendiendo\AprendiendoApplication.class
+com\aprendiendoSB\aprendiendo\dao\UsuarioDaoImp.class
+com\aprendiendoSB\aprendiendo\dao\UsuarioDao.class
+com\aprendiendoSB\aprendiendo\dao\PokemonDaoImp.class
+com\aprendiendoSB\aprendiendo\dao\PokemonDao.class
+com\aprendiendoSB\aprendiendo\models\Pokemon.class
+com\aprendiendoSB\aprendiendo\controllers\UserController.class
+com\aprendiendoSB\aprendiendo\ServletInitializer.class
+com\aprendiendoSB\aprendiendo\models\User.class
