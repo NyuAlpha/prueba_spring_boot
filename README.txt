@@ -1,0 +1,1 @@
+Para  ejecutar en modo dev -> mvn spring-boot:run --define spring-boot.run.arguments="--spring.profiles.active=dev"
